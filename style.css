@@ -1,4 +1,4 @@
-/* Reset e Variáveis CSS */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
 }
 
 :root {
-    /* Cores baseadas no logo */
     --primary-blue: #003366;
     --secondary-blue: #007bff;
     --light-blue: #66ccff;
@@ -17,14 +16,12 @@
     --text-light: #6c757d;
     --border-color: #e9ecef;
     
-    /* Tipografia */
     --font-primary: 'Montserrat', sans-serif;
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     
-    /* Espaçamentos */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 1.5rem;
@@ -32,19 +29,16 @@
     --spacing-xl: 3rem;
     --spacing-xxl: 4rem;
     
-    /* Transições */
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
     --transition-slow: 0.5s ease;
     
-    /* Sombras */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
     --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-/* Base Styles */
 html {
     scroll-behavior: smooth;
 }
@@ -63,7 +57,6 @@ body {
     padding: 0 var(--spacing-sm);
 }
 
-/* Header Styles */
 .header {
     background: var(--white);
     box-shadow: var(--shadow-sm);
@@ -147,7 +140,6 @@ body {
     box-shadow: var(--shadow-md);
 }
 
-/* Mobile Menu */
 .nav-toggle {
     display: none;
     flex-direction: column;
@@ -162,7 +154,6 @@ body {
     transition: var(--transition-normal);
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--background-light) 0%, #e3f2fd 100%);
     padding: calc(80px + var(--spacing-xxl)) 0 var(--spacing-xxl);
@@ -247,7 +238,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* Hero Graphics */
 .hero-image {
     display: flex;
     justify-content: center;
@@ -294,7 +284,6 @@ body {
     animation-delay: 2s;
 }
 
-/* Section Styles */
 .section-header {
     text-align: center;
     margin-bottom: var(--spacing-xxl);
@@ -312,7 +301,6 @@ body {
     color: var(--text-light);
 }
 
-/* About Section */
 .about {
     padding: var(--spacing-xxl) 0;
     background: var(--white);
@@ -390,7 +378,6 @@ body {
     font-weight: var(--font-weight-semibold);
 }
 
-/* Services Section */
 .services {
     padding: var(--spacing-xxl) 0;
     background: var(--background-light);
@@ -475,7 +462,6 @@ body {
     font-weight: var(--font-weight-bold);
 }
 
-/* Contact Section */
 .contact {
     padding: var(--spacing-xxl) 0;
     background: var(--white);
@@ -523,7 +509,6 @@ body {
     margin: 0;
 }
 
-/* Form Styles */
 .contact-form {
     background: var(--background-light);
     padding: var(--spacing-xl);
@@ -571,7 +556,6 @@ body {
     margin-top: var(--spacing-md);
 }
 
-/* Footer */
 .footer {
     background: var(--primary-blue);
     color: var(--white);
@@ -663,7 +647,6 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Animations */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -695,7 +678,7 @@ body {
     }
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
