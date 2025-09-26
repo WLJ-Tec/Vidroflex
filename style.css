@@ -788,3 +788,11 @@ body {
     }
 }
 
+.wlj {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #26316a, #56388e, #2f7bb9);
+  color: var(--white-color);
+  font-size: 15px;
+}
