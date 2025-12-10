@@ -796,3 +796,19 @@ body {
   color: var(--white-color);
   font-size: 15px;
 }
+.btn-instagram {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #E1306C; /* cor do Instagram */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-instagram:hover {
+    background-color: #c02660;
+    transform: scale(1.05);
+}
