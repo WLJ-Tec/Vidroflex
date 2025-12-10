@@ -809,6 +809,6 @@ body {
 }
 
 .btn-instagram:hover {
-    background-color: #f8f9fa;
+    background-color: var(--primary-blue);
     transform: scale(1.05);
 }
